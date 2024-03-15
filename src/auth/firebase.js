@@ -20,12 +20,13 @@ import { getFavourites } from "../store/favouritesSlice";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API,
-  authDomain: "countries-2024.firebaseapp.com",
-  projectId: "countries-2024",
-  storageBucket: "countries-2024.appspot.com",
-  messagingSenderId: "472296587636",
-  appId: "1:472296587636:web:fae2361a36d5ecd82c2c21",
+  authDomain: "countries-6a68c.firebaseapp.com",
+  projectId: "countries-6a68c",
+  storageBucket: "countries-6a68c.appspot.com",
+  messagingSenderId: "596975822467",
+  appId: "1:596975822467:web:b7e7d28b7e738ef6b2ddb6"
 };
+
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
