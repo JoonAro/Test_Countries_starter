@@ -3,6 +3,7 @@ import countriesService from "../services/countries";
 
 export const initializeCountries = () => {
   return async (dispatch) => {
+    //mocking this in test
     const countries = await countriesService.getAll();
     dispatch(getCountries(countries));
     setTimeout(() => {
